@@ -42,6 +42,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MotivationalQuoteActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.MyApplication"
+            android:exported="false" />
     </application>
 
 </manifest>

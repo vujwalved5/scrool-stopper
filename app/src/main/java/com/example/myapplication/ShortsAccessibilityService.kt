@@ -187,6 +187,13 @@ class ShortsAccessibilityService : AccessibilityService() {
 
     private fun triggerInterrupt() {
         AudioHelper.play(applicationContext)
+        
+        val intent = Intent(this, MotivationalQuoteActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+        }
+        startActivity(intent)
+
         incrementStat("interrupt_count")
         prefs.edit().putLong("last_interrupt_timestamp", System.currentTimeMillis()).apply()
         hasPlayedOnce = true

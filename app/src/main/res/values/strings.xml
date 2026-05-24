@@ -18,4 +18,30 @@
     <string name="stop_audio">Stop Audio</string>
     <string name="today_at">Today at %s</string>
     <string name="yesterday_at">Yesterday at %s</string>
+
+    <!-- Motivational Quotes -->
+    <string name="quote_screen_title">Pause and Reflect</string>
+    <string name="quote_close_button">I\'m done scrolling</string>
+    <string-array name="motivational_quotes">
+        <item>Your time is limited, so don\'t waste it living someone else\'s life.</item>
+        <item>The only way to do great work is to love what you do.</item>
+        <item>Believe you can and you\'re halfway there.</item>
+        <item>It does not matter how slowly you go as long as you do not stop.</item>
+        <item>Everything you\'ve ever wanted is on the other side of fear.</item>
+        <item>Success is not final, failure is not fatal: it is the courage to continue that counts.</item>
+        <item>Hardships often prepare ordinary people for an extraordinary destiny.</item>
+        <item>Don\'t watch the clock; do what it does. Keep going.</item>
+        <item>The future depends on what you do today.</item>
+        <item>You are never too old to set another goal or to dream a new dream.</item>
+        <item>The only limit to our realization of tomorrow will be our doubts of today.</item>
+        <item>Act as if what you do makes a difference. It does.</item>
+        <item>Success is walking from failure to failure with no loss of enthusiasm.</item>
+        <item>The best way to predict the future is to create it.</item>
+        <item>Do what you can, with what you have, where you are.</item>
+        <item>It always seems impossible until it\'s done.</item>
+        <item>Don\'t let yesterday take up too much of today.</item>
+        <item>Start where you are. Use what you have. Do what you can.</item>
+        <item>Keep your face always toward the sunshine—and shadows will fall behind you.</item>
+        <item>Happiness is not something ready made. It comes from your own actions.</item>
+    </string-array>
 </resources>

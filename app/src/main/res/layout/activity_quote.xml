@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_dark"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvQuoteTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quote_screen_title"
+        android:textColor="@color/text_secondary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:id="@+id/tvQuoteText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:lineSpacingExtra="8dp"/>
+
+    <Button
+        android:id="@+id/btnCloseQuote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quote_close_button"
+        android:backgroundTint="@color/youtube_red"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
