@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Shorts Interrupter</string>
+    <string name="accessibility_service_description">Detects when YouTube Shorts are opened and plays an audio message.</string>
+    <string name="service_enabled">🟢 Service Active</string>
+    <string name="service_disabled">🔴 Service Inactive</string>
+    <string name="enable_service">Go to Settings</string>
+    <string name="reset_stats">Reset All Stats</string>
+    <string name="confirm_reset">Are you sure you want to reset all statistics?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="stat_shorts_opened">Shorts Opened</string>
+    <string name="stat_total_time">Total Time</string>
+    <string name="stat_interrupted">Interrupted</string>
+    <string name="stat_time_saved">Time Saved</string>
+    <string name="stat_longest_session">Longest Session</string>
+    <string name="stat_last_interrupted">Last Interrupted</string>
+    <string name="today_at">Today at %s</string>
+    <string name="yesterday_at">Yesterday at %s</string>
+</resources>
