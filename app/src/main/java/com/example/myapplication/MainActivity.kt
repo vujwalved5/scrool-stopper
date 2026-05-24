@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var statusTextView: TextView
     private lateinit var enableButton: Button
+    private lateinit var testAudioButton: Button
+    private lateinit var stopAudioButton: Button
     private lateinit var tvShortsOpened: TextView
     private lateinit var tvTotalTime: TextView
     private lateinit var tvInterrupted: TextView
@@ -36,6 +38,8 @@ class MainActivity : AppCompatActivity() {
 
         statusTextView = findViewById(R.id.statusTextView)
         enableButton = findViewById(R.id.enableButton)
+        testAudioButton = findViewById(R.id.testAudioButton)
+        stopAudioButton = findViewById(R.id.stopAudioButton)
         tvShortsOpened = findViewById(R.id.tvShortsOpened)
         tvTotalTime = findViewById(R.id.tvTotalTime)
         tvInterrupted = findViewById(R.id.tvInterrupted)
@@ -47,6 +51,14 @@ class MainActivity : AppCompatActivity() {
         enableButton.setOnClickListener {
             val intent = Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)
             startActivity(intent)
+        }
+
+        testAudioButton.setOnClickListener {
+            AudioHelper.play(this)
+        }
+
+        stopAudioButton.setOnClickListener {
+            AudioHelper.stop()
         }
 
         resetButton.setOnClickListener {

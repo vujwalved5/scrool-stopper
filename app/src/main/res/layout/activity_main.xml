@@ -55,6 +55,31 @@
                     android:text="@string/enable_service"
                     android:backgroundTint="@color/youtube_red"
                     android:textColor="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp">
+
+                    <Button
+                        android:id="@+id/testAudioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/test_audio"
+                        android:layout_marginEnd="8dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textColor="@color/youtube_red" />
+
+                    <Button
+                        android:id="@+id/stopAudioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/stop_audio"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:textColor="@color/text_secondary" />
+                </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
